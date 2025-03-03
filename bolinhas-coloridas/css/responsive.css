@@ -108,7 +108,7 @@ File Name: responsive.css
   .header {
     padding: 31px 15px;
     box-shadow: 0 0 10px rgb(240, 57, 15);
-    margin-bottom: 11px;
+    margin-bottom: 20px;
   }
   /* testimonia
   .board {
@@ -193,7 +193,7 @@ File Name: responsive.css
     padding: 0;
     width: 100%;
     outline: inherit;
-    margin-top: -37px;
+    margin-top: -80px;
   }
   .navigation.navbar-dark .navbar-toggler-icon {
     background: url(../images/menu_icon.png);

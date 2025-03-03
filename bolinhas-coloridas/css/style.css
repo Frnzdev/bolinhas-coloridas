@@ -472,9 +472,8 @@ button {
 
 .header {
   width: 100%;
-  background: #fff0;
   height: 107px;
-  padding: 27px 20px;
+  padding: 27px 20px 27px 20px;
   position: absolute;
   z-index: 999;
 }
@@ -487,56 +486,24 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link {
   padding: 10px;
   color: #2b2b2b;
-  font-size: 17px;
-  line-height: 20px;
-  font-weight: 400;
-  border-radius: 30px;
+  font-size: 16px;
+  /* border-radius: 30px; */
   text-transform: uppercase;
+  transition: 0.3s;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-  color: #fff;
-  background: #add8e6;
   font-weight: bold;
+  border-bottom: 1px solid black;
 }
 
 .navigation.navbar-dark .navbar-nav .active > .nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show > .nav-link {
-  color: #fff;
-  background: #add8e6;
   font-weight: bold;
-}
-
-.di_no {
-  display: none;
-}
-
-ul.email {
-  padding-top: 1px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-}
-
-ul.email li {
-  padding: 0px 30px;
-}
-
-ul.email li:nth-child(2) {
-  padding-right: 0;
-}
-
-ul.email li a {
-  font-size: 29px;
-}
-
-ul.email li i {
-  color: #5e5d5e;
-  font-size: 19px;
+  border-bottom: 1px solid black;
 }
 
 /* Oculta o menu suspenso */
@@ -564,8 +531,7 @@ ul.email li i {
   border-radius: 5px;
 }
 .dropdown-menu li a:hover {
-  background-color: #0400ff;
-  color: white;
+  border-bottom: 1px solid black;
   font-weight: bold;
 }
 
@@ -585,12 +551,13 @@ ul.email li i {
 /** banner section **/
 
 .full_bg {
-  background: #fff;
+  padding: 30px;
 }
 
 .slider_main {
   padding-top: 6%;
 }
+
 
 .relative {
   left: 0;
@@ -619,6 +586,11 @@ ul.email li i {
   float: right;
   text-align: left;
   width: 100%;
+}
+
+.board img {
+  position: fixed;
+  margin: 10px;
 }
 
 .relative h3 {
@@ -729,12 +701,16 @@ ul.email li i {
 /** about section **/
 
 .about {
-  background: url(../images/about_bg.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: linear-gradient(
+    to left bottom,
+    #0023ff,
+    #0066ff,
+    #008dff,
+    #00aeff,
+    #00caff
+  );
   padding-top: 90px;
+  border-radius: 80px;
 }
 
 .about .titlepage {
@@ -1133,7 +1109,6 @@ ul.icon-social li a:hover {
 /**  inner page css **/
 
 .inner_page .header {
-  box-shadow: 0 0 10px rgb(240, 57, 15);
   margin-bottom: 10px;
   position: inherit;
 }

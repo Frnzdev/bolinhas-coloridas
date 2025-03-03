@@ -38,7 +38,7 @@ class MyHeader extends HTMLElement {
                                     <a class="nav-link" href="cantinho-de-brincar.html">CANTINHO DE BRINCAR</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="lancamentos.html">LANÇAMENTOS</a>
+                                    <a class="nav-link" href="lancamentos.html" >LANÇAMENTOS</a>
                                 </li>
                             </ul>
                         </div>
@@ -86,7 +86,7 @@ class MyFooter extends HTMLElement {
                   <div class="informations">
                     <h3>Links Usados</h3>
                     <ul class="all-links">
-                      <li><a href="index.html">Início</a></li>
+                      <li><a href="index.html" class="link-text">Início</a></li>
                       <li><a href="para-sua-festa.html">Para sua festa</a></li>
                       <li><a href="inflaveis-luxo.html">Infláveis de luxo</a></li>
                       <li><a href="cantinho-de-brincar.html">Cantinho de brincar</a></li>
@@ -132,8 +132,7 @@ class MyFooter extends HTMLElement {
             <div class="row">
               <div class="col-md-12">
                 <p>
-                  © 2020 All Rights Reserved. Design by
-                  <a href="https://html.design/"> Free html Templates</a>
+                  © 2025 All Rights Reserved. Design by Frnz
                 </p>
               </div>
             </div>

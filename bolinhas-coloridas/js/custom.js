@@ -41,19 +41,19 @@ $(function () {
   });
 
   /* Mudar cor do fundo conforme o slide */
-  var colors = [
-    "rgba(255, 255, 0, 0.3)",
-    "rgba(7, 0, 110, 0.3)",
-    "rgba(0, 128, 0, 0.3)",
-  ];
-  var $carousel = $("#carouselExampleIndicators");
+  // var colors = [
+  //   "rgba(255, 255, 0, 0.3)",
+  //   "rgba(7, 0, 110, 0.3)",
+  //   "rgba(0, 128, 0, 0.3)",
+  // ];
+  // var $carousel = $("#carouselExampleIndicators");
 
-  function updateBackground(slideIndex) {
-    $("#ToChange").css({
-      "background-color": colors[slideIndex],
-      "border-radius": "20px",
-    });
-  }
+  // function updateBackground(slideIndex) {
+  //   $("#ToChange").css({
+  //     "background-color": colors[slideIndex],
+  //     "border-radius": "20px",
+  //   });
+  // }
 
   updateBackground(0);
 
@@ -114,3 +114,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document
+  .getElementById("whatsapp-link")
+  .addEventListener("click", function (event) {
+    window.open(this.href, "_blank");
+    event.preventDefault();
+  });

@@ -2,6 +2,14 @@
     File Name: custom.js
 ---------------------------------------------------------------------*/
 
+//animation on scroll
+
+document.addEventListener("DOMContentLoaded", function () {
+  AOS.init();
+});
+
+//fim animation on scroll
+
 $(function () {
   "use strict";
 

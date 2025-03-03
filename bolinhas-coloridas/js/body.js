@@ -60,7 +60,7 @@ class MyFooter extends HTMLElement {
     <footer>
       <div class="footer">
         <div class="container">
-          <div class="row">
+          <div class="ToPutImage row">
             <div class="col-md-4">
               <div class="informations">
                 <h3>Fale Conosco</h3>
